@@ -1,0 +1,113 @@
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444242;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+.navbarItem {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.oge {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.oge:hover {
+  background-color: #111;
+}
+
+
+.header {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+.mainPicture {
+  border-radius: 25%;
+  width:250px;
+  height: auto;
+  margin: 25px auto;
+}
+
+.photo {
+  text-align: center;
+}
+
+.text {
+  margin: 25px 150px auto 150px;
+  font-family: sans-serif, serif;
+}
+
+footer {
+  background-color: #444242;
+  padding: 5px;
+  text-align: right;
+  width: auto;
+  height: 55px;
+  
+}
+
+
+.social-media-icons a{
+  
+  color: white;
+  padding: 10px;
+  
+ 
+}
+
+.social-media-icons a i {
+  font-size: 35px;
+  margin-top: 10px;
+
+}
+.nav{
+  text-align: center;
+}
+.container {
+  overflow: auto;
+}
+
+.left {
+  float: left;
+  width: 30%;
+  height: 1000px;
+  background-color: grey;
+  
+}
+
+.right {
+  float: left;
+  width: 70%;
+}
+.galeri {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    }
+
+.galeri img {
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.galeri img:hover {
+  transform: scale(1.5);
+}
